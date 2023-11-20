@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Kdam Thmor Pro&display=swap');
+
+body {
+    font-family: Kdam Thmor Pro, serif;
+    background: linear-gradient(90deg, #ddc6c6 19%, #424a3f 73%);
+
+}
+
+p {
+    color: black;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(175, 38, 38);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: blue;
+}
+
+.card {
+    background: linear-gradient(270deg, #ddc6c6 19%, #424a3f 73%);
+}
+
+.sidebar {
+    background: linear-gradient(270deg, #ddc6c6 19%, #424a3f 73%);
+
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.slide-text,
+.footer-text {
+    color: black;
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+
+    }
+}
+
+.call {
+    animation: myAnim 2.5s ease 0s 1 normal none;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0.8;
+		transform: scale(0.2);
+	}
+
+	80% {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(2.2);
+	}
+}
+
+footer, 
+.btn-primary {
+    background: linear-gradient(180deg, #666060 19%, #1d1919 73%);
+
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
